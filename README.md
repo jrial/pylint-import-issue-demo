@@ -24,7 +24,7 @@ with how Python sees things.
 
 ## How to run
 
-The `run_test.py` script in the root of this repo contains a script that
+The `run_test` script in the root of this repo contains a script that
 demonstrates the bug:
 
 1. It starts by creating a virtualenv named `myproject` in which to install Pylint
