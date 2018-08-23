@@ -43,3 +43,9 @@ virtualenvwrapper.sh file which defines things like `workon` and `mkvirtualenv`
 by finding its location through dpkg. So it assumes a Debian system. When
 running on a non-Debian system, simply change the `source` line in the script
 to point to the correct path instead.
+
+## See also
+
+PyCQA/pylint#1474
+
+Update: can no longer reproduce.
