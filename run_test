@@ -33,7 +33,7 @@ echo -ne '\n'
 echo "If the import is valid, this should've produced the output \"Hello\"."
 echo "For the record, the import line was:"
 echo -ne "    "
-grep import myproject/apps/myapp/commands/mycommand.py
+grep "classes import" myproject/apps/myapp/commands/mycommand.py
 echo -ne '\n'
 
 echo "Finally, let's see what Pylint makes of this..."
